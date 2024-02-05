@@ -1,0 +1,24 @@
+{
+  "name": "koishi-plugin-leak-alert",
+  "description": "公网部署前请先启用 Auth 插件",
+  "version": "0.0.3",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "devDependencies": {
+    "@koishijs/client": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@koishijs/plugin-console": "^5.0.0",
+    "koishi": "^4.0.0"
+  }
+}
