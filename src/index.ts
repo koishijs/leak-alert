@@ -1,6 +1,6 @@
 import { Context, Schema, Time } from 'koishi'
 import { resolve } from 'path'
-import { Client } from '@koishijs/plugin-console'
+import { } from '@koishijs/plugin-console'
 
 export const name = 'leak-alert'
 
@@ -16,6 +16,7 @@ export async function apply(ctx: Context) {
       prod: resolve(__dirname, '../dist'),
     })
   })
+
 
   const isAuthEnabled = () => {
     try {
